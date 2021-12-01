@@ -68,4 +68,5 @@ function vaciarCarrito() {
     montoTotalCompra.innerText = "0";
     cantProductos.innerText = "0";
     localStorage.clear();
+    carrito=[];
 }
